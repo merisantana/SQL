@@ -4,7 +4,7 @@ Variable "resourcerm_group_name" {
 Variable "location" {
   type "string"
 }
-Variable "namevnet" {
+Variable "namesqlserver" {
   type "string"
 }
 
