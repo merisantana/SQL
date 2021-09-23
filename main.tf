@@ -3,7 +3,7 @@ data "azurerm_resource_group" "RG" {
 }
 
 resource "azurerm_sql_server" "sqlserver" {
-  name                         = var.namevnet
+  name                         = var.namesqlserver
   resource_group_name          = data.azurerm_resource_group.RG.name
   location                     = var.location
   version                      = "12.0"
