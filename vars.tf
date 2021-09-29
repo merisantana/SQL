@@ -1,13 +1,13 @@
 Variable "resourcerm_group_name" {
-  type "string"
+  type = string
 }
 Variable "location" {
-  type "string"
+  type = string
 }
 Variable "namesqlserver" {
-  type "string"
+  type = string
 }
 
 Variable "namesqldb" {
-  type "string"
+  type = string
 }
